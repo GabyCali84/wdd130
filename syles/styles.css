@@ -5,15 +5,15 @@ nav {
 
 nav a {
   color: white;
-  padding: 10px;
-  display: black;
+  display: block;
+  padding: 20px;
 }
 
 h1 {
   color: steelblue;
 }
 
-main img {
+img {
   width: 150px;
   height: auto;
   border: 1px solid steelblue;
@@ -22,7 +22,7 @@ main img {
 }
 
 p {
-  padding:0;
+  padding:10px;
 }
 
 aside {
