@@ -1,8 +1,3 @@
-main{
-  width: 80%;
-  margin: 0 auto;
-  
-}
 
 nav {
   background-color: steelblue;
@@ -10,8 +5,8 @@ nav {
 }
 
 nav a {
-  color: rgb(109, 141, 157);
-  padding: 10px;
+  color: white;
+  padding: 20px;
   display: block;
 }
 
