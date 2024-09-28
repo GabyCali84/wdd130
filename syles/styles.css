@@ -4,32 +4,25 @@ nav {
 }
 
 nav a {
-  background-color: #333;
   color: rgb(109, 141, 157);
+  padding: 10px;
   display: block;
-  padding: 20px;
 }
 
 h1 {
   color: steelblue;
 }
 
-img {
+main img {
   width: 150px;
   height: auto;
   border: 1px solid steelblue;
   padding: 2px;
-  box-shadow: 10px 10px 5px (0, 0, 0, 0.5);
-}
-
-h1 {
-  font-size: 2em;
+  box-shadow: 0 0 30px gray;
 }
 
 p {
-  color: rgb(104, 146, 146);
   padding: 10px;
-  background-color:bisque;
 }
 
 aside {
