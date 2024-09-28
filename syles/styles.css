@@ -22,7 +22,9 @@ img {
 }
 
 p {
-  padding:10px;
+  color: rgb(104, 146, 146);
+  padding: 10px;
+  background-color:bisque;
 }
 
 aside {
