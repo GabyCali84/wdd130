@@ -1,13 +1,15 @@
 
 nav {
+  background-color: rgb(70, 130, 180);
   color : rgb(224, 148, 148);
   padding: 10px;
 }
 
 nav a {
-  color: rgb(82, 33, 33);
+  color: rgb(243, 235, 235);
   padding: 20px;
   display: block;
+  text-decoration: none;
 }
 
 h1 {
@@ -40,7 +42,7 @@ aside {
   margin: 2rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1rem;
-  background-color: gray;
+  background-color: rgb(237, 221, 221);
   color: #170707;
   text-align: center;
 }
