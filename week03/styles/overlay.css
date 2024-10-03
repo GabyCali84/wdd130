@@ -12,7 +12,7 @@ main {
 h2 {
     text-align: center;
     font-size: 1.5rem;
-    text-shadow: 3px 3px 5px #777;
+    text-shadow: 3px 3px 5px #1a0f0f;
 }
 
 .herodiv {
@@ -33,7 +33,7 @@ h2 {
     background: radial-gradient(#eee, #751c5f);
     border: 1px solid #6f66b8;
     padding: 0.65rem;
-    box-shadow: 0 0 30px #3e1313;
+    box-shadow: 0 0 30px #db7575;
     opacity: 0.9;
 }
 
@@ -49,7 +49,7 @@ footer {
     margin: 1rem;
     border-top: 1px solid #825050;
     padding: 0.5rem;
-    color: navy;
+    color: rgb(193, 43, 165);
     font-weight: 700;
     font-style: italic;
 }
