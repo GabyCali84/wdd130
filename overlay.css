@@ -8,6 +8,13 @@ nav {
 	color : rgb(224, 148, 148);
 	padding: 10px;
   }
+
+  nav a {
+	color: rgb(233, 227, 227);
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+  }  
   
 
 main {
