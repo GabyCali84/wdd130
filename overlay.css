@@ -3,6 +3,13 @@
 	padding: 0;
 }
 
+nav {
+	background-color: rgb(70, 130, 180);
+	color : rgb(224, 148, 148);
+	padding: 10px;
+  }
+  
+
 main {
 	max-width: 800px;
 	margin: 2rem auto;
