@@ -4,7 +4,7 @@
 }
 
 nav {
-	background-color: rgb(71, 118, 156);
+	background-color: rgb(114, 179, 233);
 	color : rgb(224, 148, 148);
 	padding: 10px;
   }
@@ -14,7 +14,12 @@ nav {
 	padding: 20px;
 	display: block;
 	text-decoration: none;
-  }  
+  } 
+  
+  img{
+	max-width: 100%;
+	height: auto;
+  } 
   
 
 main {
@@ -26,7 +31,7 @@ main {
 h2 {
 	text-align: center;
 	font-size: 1.5rem;
-	text-shadow: 3px 3px 5px #ce7676;
+	text-shadow: 3px 3px 5px #d87878;
 }
 
 .herodiv {
@@ -53,7 +58,7 @@ h2 {
 
 h3 {
 	text-shadow: 0 0 15px #333;
-	border-bottom: 1px solid #999;
+	border-bottom: 1px solid #e3d7d7;
 	margin-bottom: 0.3rem;
 }
 
