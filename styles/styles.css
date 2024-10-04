@@ -1,14 +1,14 @@
 :root {
-  --heading-background-color: #f06;
-  --heading-text-color: #333;
+  --heading-background-color: rgb(234, 200, 214);
+  --heading-text-color: #f8eded;
   --heading-font: 'Monstserrat', Helvetica, sans-serif;
   --padding: 1rem;
-  --border: 1px solid rgba(0,0,0,0.1);
+  --border: 1px solid rgba(208, 115, 115, 0.1);
 }
 
 h1{
   background-color: var(--heading-background-color);
-  color: var(--heading-text-color);
+  color: var(--heading-text-);
   font-family: var(--heading-font);
   padding: var(--padding);
 }
@@ -60,7 +60,7 @@ main{
 aside {
   width: 20rem;
   margin: 2rem;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(179, 97, 97, 0.2);
   padding: 1rem;
   background-color: rgb(237, 221, 221);
   color: #170707;
