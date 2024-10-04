@@ -1,14 +1,24 @@
-:root {
-  --heading-background-color: var(--heading-background-color);
-  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
 }
+
 nav {
   background-color: rgb(70, 130, 180);
   color : rgb(224, 148, 148);
   padding: 10px;
 }
-
-nav a {
+/*Class Selectors*/
+.box{
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+  }
+  
+  nav a {
   color: rgb(243, 235, 235);
   padding: 20px;
   display: block;
@@ -30,6 +40,7 @@ main img {
   border: 1px solid rgb(87, 126, 158);
   padding: 2px;
   box-shadow: 0 0 30px gray;
+  float: right;
 }
 
 p {
@@ -48,6 +59,7 @@ aside {
   background-color: rgb(237, 221, 221);
   color: #170707;
   text-align: center;
+  position: relative;
 }
 
 aside img {
