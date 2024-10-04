@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 
 body{
@@ -25,6 +25,10 @@ h1 {
   padding: .5rem
 }
 
+main{
+  max-width: 640px;
+}
+
 img{
   max-width: 100%;
   height: auto;
@@ -42,10 +46,6 @@ main img {
 
 p {
   margin: 1rem;
-}
-
-main{
-  max-width: 640px;
 }
 
 aside {
