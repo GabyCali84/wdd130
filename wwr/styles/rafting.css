@@ -1,10 +1,10 @@
 :root{
-    --primary-color: #3498db;
+    --primary-color: #139896;
     --secondary-color: #2ecc71;
     --font-color: #333;
     --backgroung-color: #f0f0f0;
     --link-color: #3498db;
-    --link-hover-color: #2980b9;
+    --link-hover-color: #5d3da9;
     --max-width: 1200px;
 }
 
@@ -12,7 +12,7 @@
 .social-link {
     text-decoration: none;
     color: var(--secondary-color);
-    display: flex;
+    display: inline-block;
     align-items: center;
     margin-right: 15px;
   }
@@ -34,6 +34,13 @@
     filter: brightness(0.8);
 }
 
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  
 body {
     font-family: Arial, sans-serif;
     color: var(--font-color);
@@ -75,7 +82,7 @@ footer a:hover {
     background-size: cover;
     background-position: center;
     height: 400px;
-    color: white;
+    color: rgb(244, 237, 237);
     text-align: center;
 }
 
