@@ -10,7 +10,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+  <header>
+    <h1>-Welcome To Rafting-</h1>
+    </header>
+    <main>
     <div class="logo-box">
         <img src="images/raftinglogo.png" alt="logo">
     </div>
@@ -31,11 +34,12 @@
          can customize your whitewater rafting trip to fit your needs. Either way, you will need your whole crew to make it down the river. 
          Book your Middle Ocoee Trip now for summer adventure, true camaraderie, and enduring stories!
       </p>
+    </main>
     </header>
+    <main>
    <section class="hero">
       <img src="images/salmon-kayak-banner2.jpg" alt="Hero Image">
     </section>
-
     <section class="about-content">
       <article>
         <h2>Our Story</h2>
@@ -58,20 +62,62 @@
     </section>
     <section>
         <h2>Adventure Awaits You!</h2>
-        <img src="images/boat4.jpg" alt="Boat">
+        <img src="images/fixrafting.jpg" alt="Boat">
         <img src="images/landscape2.jpg" alt="Ejoying landscape">
-        <img src="images/rafting3.jpg" alt="Wild">
-        <img src="images/rafting.jpg" alt="Team">
+        <img src="images/fixraftinglive.jpg" alt="Wild">
+        <img src="images/fixrafting3.jpg" alt="Team">
     </section>
+    </main>
     <footer>
       <div class="social">
         <a href="https://www.facebook.com" class="social-link">
-            <img src="path/to/facebook-logo.png" alt="Facebook" width="30" height="30">
+            <img src="images/5365678_fb_facebook_facebook logo_icon.png" alt="Facebook" width="30" height="30">
+            </a>
         <a href="https://www.twitter.com" class="social-link">
-            <img src="path/to/twitter-logo.png" alt="Twitter" width="30" height="30">
+            <img src="images/107066_square_twitter_blue_icon.png" alt="Twitter" width="30" height="30">
+            </a>
         <a href="https://www.instagram.com" class="social-link">
-            <img src="path/to/instagram-log.png" alt="Instagram" width="30" height="30">
+            <img src="images/6929237_instagram_icon.png" alt="Instagram" width="30" height="30">
+            </a>
     </footer>
-  </div>
+  </div> 
+  <!-- Code injected by live-sever -->
+  <script>
+    // <![CDATA[  <-- For SVG support↩
+    if ('WebSocket' in window) {
+      (function () {
+        function refreshCSS() {
+          var sheets = [].slice.call(document.getElementsByTagName("link"));
+          var head = document.getElementsByTagName("head")[0];
+          for (var i = 0; i < sheets.length; ++i) {
+            var elem = sheets[i];
+            var parent = elem.parentElement || head;
+            parent.removeChild(elem);
+            var rel = elem.rel;
+            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+              var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+              elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+            }
+            parent.appendChild(elem);
+          }
+        }
+        var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+        var address = protocol + window.location.host + window.location.pathname + '/ws';
+        var socket = new WebSocket(address);
+        socket.onmessage = function (msg) {
+          if (msg.data == 'reload') window.location.reload();
+          else if (msg.data == 'refreshcss') refreshCSS();
+        };
+        if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+          console.log('Live reload enabled.');
+          sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+        }
+      })();
+    }
+    else {
+      console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+    }
+    // ]]>↩
+  </script>
 </body>
 </html>
