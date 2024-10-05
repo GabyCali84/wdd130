@@ -3,8 +3,7 @@
     --secondary-color: #E6D8AB;
     --accent1-color: #EA9B7F;
     --accent2-color: #0EB092;
-
-/* Remove Underlines from Social Media Links */
+}/* Remove Underlines from Social Media Links */
 .social-link {
     text-decoration: none;
     color: var(--secondary-color);
