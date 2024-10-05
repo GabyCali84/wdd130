@@ -1,12 +1,8 @@
 :root{
-    --primary-color: #139896;
-    --secondary-color: #2ecc71;
-    --font-color: #333;
-    --backgroung-color: #f0f0f0;
-    --link-color: #3498db;
-    --link-hover-color: #5d3da9;
-    --max-width: 1200px;
-}
+    --primary-color: #2F8590;
+    --secondary-color: #E6D8AB;
+    --accent1-color: #EA9B7F;
+    --accent2-color: #0EB092;
 
 /* Remove Underlines from Social Media Links */
 .social-link {
