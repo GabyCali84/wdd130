@@ -1,0 +1,44 @@
+:root{
+    --primary-color: #2F8590;
+    --secondary-color: #E6D8AB;
+    --accent1-color: #EA9B7F;
+    --accent2-color: #0EB092;
+    --heading-font: 'Arial', sans-serif;
+    --text-font: 'Georgia', serif;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: 'Merriweather', serif; }
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--font-color);
+    background-color: var(--background-color);
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}   
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    font-size: 3em;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 80%;
+    color: white;
+}
