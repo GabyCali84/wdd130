@@ -10,18 +10,19 @@ body{
 }
 
 nav {
-  background-color: rgb(70, 130, 180);
+  background-color: steelblue;
   padding: 10px;
 }
 
 nav a {
   color: rgb(243, 235, 235);
+  display: block;
   padding: 20px;
   display: block;
 }
 
 h1 {
-  color: rgb(56, 80, 100);
+  color: rgb(73, 110, 190);
   padding: 0.5rem
 }
 
@@ -30,6 +31,8 @@ main{
 }
 
 img{
+  width: 150px;
+  height: auto;
   max-width: 100%;
   height: auto;
 }
